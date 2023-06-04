@@ -1,7 +1,6 @@
 package pl.ds360;
 
 
-import org.eclipse.persistence.jaxb.UnmarshallerProperties;
 import pl.ds360.dtos.Product;
 import pl.ds360.dtos.ResponseList;
 import pl.ds360.dtos.SearchParam;
@@ -18,15 +17,18 @@ import java.io.StringReader;
 
 public class Main {
     public static void main(String[] args)  {
-        System.setProperty("javax.xml.bind.context.factory","org.eclipse.persistence.jaxb.JAXBContextFactory");
         String BASE_URI = "http://localhost:8080/rest1-1.0-SNAPSHOT";
         Client client = ClientBuilder.newClient();
         //allProducts(client);
 
+        findProducts(client);
+    }
+
+    private static void findProducts(Client client) {
         WebTarget target = client.target("http://localhost:8080/rest1-1.0-SNAPSHOT/sklep/findProducts");
 
-        SearchParam searchParam = new SearchParam("Pomarancze", 5);
-        String message = target.request(MediaType.APPLICATION_JSON).post(Entity.entity(searchParam, MediaType.APPLICATION_JSON), String.class);
+        SearchParam searchParam = new SearchParam("Pomarancze", 10);
+        String message = target.request(MediaType.APPLICATION_XML).post(Entity.entity(searchParam, MediaType.APPLICATION_JSON), String.class);
         System.out.println("response: " + message);
 
         try {

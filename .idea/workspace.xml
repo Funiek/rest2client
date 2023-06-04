@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86608d58-f56f-44ab-88a7-db76f77bc3a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ds360/dtos/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ds360/dtos/ResponseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ds360/dtos/SearchParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/ds360/dtos/jaxb.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/globaj.xjb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="86608d58-f56f-44ab-88a7-db76f77bc3a3" name="Changes" comment="aas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/ds360/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ds360/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/ds360/dtos/SearchParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/ds360/dtos/SearchParam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +99,16 @@
       <updated>1685432243334</updated>
       <workItem from="1685432244461" duration="2830000" />
       <workItem from="1685874334317" duration="4814000" />
-      <workItem from="1685879271608" duration="7124000" />
+      <workItem from="1685879271608" duration="7768000" />
     </task>
+    <task id="LOCAL-00001" summary="aas">
+      <created>1685891636362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685891636362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,18 +125,37 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aas" />
+    <option name="LAST_COMMIT_MESSAGE" value="aas" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pl/ds360/Main.java</url>
-          <line>55</line>
+          <line>53</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pl/ds360/Main.java</url>
-          <line>29</line>
+          <line>27</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/ds360/Main.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/ds360/Main.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/ds360/Main.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,9 +4,11 @@ package pl.ds360.dtos;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.io.Serializable;
 
 @XmlRootElement
-public class SearchParam {
+public class SearchParam implements Serializable {
+    private static final long serialVersionUID = 5L;
     String nazwa;
     double cenaMniejszaNiz;
 
@@ -27,9 +29,12 @@ public class SearchParam {
     }
 
     public SearchParam(String nazwa, double cenaMniejszaNiz) {
+        super();
         this.nazwa = nazwa;
         this.cenaMniejszaNiz = cenaMniejszaNiz;
     }
 
-    public SearchParam(){}
+    public SearchParam(){
+        super();
+    }
 }
